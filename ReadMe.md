@@ -6,7 +6,7 @@ Messy business data, stored in a relational database, was cleaned using SQL.
 
 To evaluate, update, or completely overhaul its market strategy, a company needed a thorough understanding of its customer base. Gaining this insight relied entirely on access to a clean, error-free dataset. 
 
-Trustworthy and reliable data was derived after identifying and correcting errors such as Duplicate Records, missing values, inconsistent values, outliers, and unwanted data, amongst others, present in the dataset.
+Trustworthy and reliable data was derived after identifying and correcting errors such as Duplicate records, missing values, inconsistent values, outliers, and unwanted data amongst others, present in the dataset.
 
 SQL was used as the tool for data cleaning and transformation. It was applied through the Postgres RDBMS.
 
