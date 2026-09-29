@@ -6,11 +6,14 @@ Messy business data, stored in a relational database, was cleaned using SQL.
 
 To evaluate, update, or completely overhaul its market strategy, a company needed a thorough understanding of its customer base. Gaining this insight relied entirely on access to a clean, error-free dataset. 
 
-Trustworthy and reliable data was derived after identifying and correcting errors such as Duplicate records, missing values, inconsistent values, outliers, and unwanted data amongst others, present in the dataset.
+Trustworthy and reliable data was derived after identifying and correcting errors such as Duplicate records, missing values, inconsistent values, outliers, and unwanted data amongst others.
 
 SQL was used as the tool for data cleaning and transformation. It was applied through the Postgres RDBMS.
 
-Lower- and Middle-Income class customers had the highest customer traffic and made the most purchases. Young Adults to Young Seniors had cumulatively high impact on the business. The business data-gathering process needed to be either reviewed or redesigned, and it was strongly recommended that the data cleaning operation be automated. Conversion Rate was a key performance metric that should be determined. 
+*Lower- and Middle-Income class customers had the highest customer traffic and made the most purchases.*  
+*Young Adults to Young Seniors had a cumulatively high impact on the business.*  
+*Conversion Rate was a key performance metric that should be determined.*  
+*The business data-gathering process needed to be either reviewed or redesigned, and it was strongly recommended that the data cleaning operation be automated.*      
 
 Business Intelligence improved as a result, as subsequent analysis was based on reliable, clean information that accurately described the business operations. 
 
@@ -30,4 +33,27 @@ Marketing Teams need reliable Buyer Profiles to develop new or update existing M
 
 These few questions (and more) were answered in this project.
 
-Answers to the business questions helped produce (on one hand) a reliable foundation for analyses, and (on the other hand) a strong context for data-driven decisions. 
+**Answers to the business questions helped produce a reliable foundation for analyses, and a strong context for data-driven decisions**. 
+
+
+
+# Methodology:
+Basically involved using SQL queries for:
+
+- Creation of Database and Tables, 
+- Data Exploration, and 
+- Data Transformation 
+
+
+In more detail, SQL queries were used to:
+
+- Create a Database and Table to hold the raw data.
+
+- Inspect the dataset and identify data quality issues.
+- Check for duplicate records (using the PARTITION BY clause and a BIGSERIAL data type column). 
+- Standardize inconsistent text values using SQL functions.
+- Identify and handle missing or null values.
+- Apply the PERCENTILE_CONT() function in Outlier handling.
+- Convert date and numerical columns into appropriate data types.
+- Remove unnecessary spaces and inconsistent characters.
+- Create a cleaned dataset for further analysis and reporting.
