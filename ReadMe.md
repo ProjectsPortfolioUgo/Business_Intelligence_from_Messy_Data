@@ -86,3 +86,27 @@ In more detail, SQL queries were used to:
 - Execute the SQL queries to implement transformations.
 
 - Execute SQL queries to analysis the cleaned dataset for insights and information.
+
+
+
+# Results and Business Recommendations
+Answers were proffered to the earlier raised questions and more.
+
+1.**What type of Customer Information was in the dataset?**
+
+Analysis revealed the following;
+
+• **Demographic:** Income, Age, Gender, Education, Profession, and Marital Status.
+
+•	**Behavior:** Commute Distance, Purchase or Not.
+
+•	**Lifestyle:** Number of Cars, Number of Children, and Homeowner.
+
+### Business Recommendation(s)
+- The Organization/Business should consider several Customer Information in the assessment or development of Market Strategy.
+
+- Income demographic is important as it indicates purchasing power and product pricing, which impacts price fixing and revenue.
+
+- Purchase or Not information is vital in calculating Conversion Rate, a key performance metric. 
+
+- Location information, needed for locale performance determination, is vital data that must be collected.
