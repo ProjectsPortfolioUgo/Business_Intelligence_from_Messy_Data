@@ -57,3 +57,32 @@ In more detail, SQL queries were used to:
 - Convert date and numerical columns into appropriate data types.
 - Remove unnecessary spaces and inconsistent characters.
 - Create a cleaned dataset for further analysis and reporting.
+
+
+
+# Skills:
+**SQL:**
+- Regular Expressions in Data Exploration (and Data Cleaning). 
+
+- CTEs and Window Functions in Duplicate row detection and removal.
+- Conditional Logic using CASE-WHEN-THEN-ELSE-END.
+- Update statements in Data Editing and Replacement.
+- Data type conversion using ALTER TABLE, ALTER COLUMN, TYPE, and USING commands. 
+- Transaction Control Language commands like BEGIN, COMMIT, ROLLBACK.
+- WHERE clause to handle NULL and missing values, 
+- Sub-queries in Outliers, NULL and Negative Values manipulation.
+- String Manipulation, 
+- DROP COLUMN to remove unnecessary data.
+- Generate a CLEAN dataset of required fields for further application.
+
+**DBeaver:**
+- Apply CREATE DATABASE and CREATE TABLE commands.
+
+- Import data from external files to populate tables.
+
+**pgAdmin:**
+- Write SQL queries to assess and clean data.
+
+- Execute the SQL queries to implement transformations.
+
+- Execute SQL queries to analysis the cleaned dataset for insights and information.
