@@ -10,10 +10,10 @@ Trustworthy and reliable data was derived after identifying and correcting error
 
 SQL was used as the tool for data cleaning and transformation. It was applied through the Postgres RDBMS.
 
-*Lower- and Middle-Income class customers had the highest customer traffic and made the most purchases.*  
-*Young Adults to Young Seniors had a cumulatively high impact on the business.*  
-*Conversion Rate was a key performance metric that should be determined.*  
-*The business data-gathering process needed to be either reviewed or redesigned, and it was strongly recommended that the data cleaning operation be automated.*      
+**Lower- and Middle-Income class customers had the highest customer traffic and made the most purchases.**  
+**Young Adults to Young Seniors had a cumulatively high impact on the business.**  
+**Conversion Rate was a key performance metric that should be determined.**  
+**The business data-gathering process needed to be either reviewed or redesigned, and it was strongly recommended that the data cleaning operation be automated.**      
 
 Business Intelligence improved as a result, as subsequent analysis was based on reliable, clean information that accurately described the business operations. 
 
