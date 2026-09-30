@@ -127,3 +127,16 @@ Data Problems, identified from an Exploratory Data Analysis performed on the ori
 - Inconsistent Text Formats.
 - Wrong Data Types (e.g., Numbers and Dates entered as Strings).
 
+
+### Business Recommendation(s):
+- Investigate the Data Gathering Process; improve on it or design a new one.
+
+- Implement a staged cleaning process before utilizing data for analysis.
+
+### 3. **Can SQL be used to check for and correct those messes?**
+The application of keywords, functions, and Regular Expressions made checking for and correcting data quality issues (using SQL) possible.
+
+[SQL file on Data Assessment and Cleaning Process](bike_customers_data_cleaning.ql)         
+[SQL file on Data Assessment and Cleaning Process_contd](bike_customers_data_cleaning_contd.sql)
+
+Some data issues that were checked and corrected using SQL queries are as follows;
