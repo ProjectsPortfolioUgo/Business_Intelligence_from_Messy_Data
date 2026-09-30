@@ -92,7 +92,7 @@ In more detail, SQL queries were used to:
 # Results and Business Recommendations
 Answers were proffered to the earlier raised questions and more.
 
-1.**What type of Customer Information was in the dataset?**
+### 1. **What type of Customer Information was in the dataset?**
 
 Analysis revealed the following;
 
@@ -110,3 +110,20 @@ Analysis revealed the following;
 - Purchase or Not information is vital in calculating Conversion Rate, a key performance metric. 
 
 - Location information, needed for locale performance determination, is vital data that must be collected.
+
+
+### 2. **What types of mess did the data have?**
+
+[Python file on Exploratory Data Analysis on Messy Dataset](Exploratory_Data_Analysis_on_Dataset.ipynb)
+
+Data Problems, identified from an Exploratory Data Analysis performed on the original/raw dataset, included;
+
+- Duplicate Records.
+
+- Missing Values (e.g., nan, unknown).
+- Outliers (e.g., value of 9,999,999 in Income, 999 and 150 for Age, 99 for Number of Children).
+- Negative values.
+- Invalid Data values (e.g., “yesterday”, “invalid date” in Date column).
+- Inconsistent Text Formats.
+- Wrong Data Types (e.g., Numbers and Dates entered as Strings).
+
