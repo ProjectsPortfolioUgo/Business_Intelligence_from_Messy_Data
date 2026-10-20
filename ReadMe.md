@@ -139,4 +139,125 @@ The application of keywords, functions, and Regular Expressions made checking fo
 [SQL file on Data Assessment and Cleaning Process](bike_customers_data_cleaning.ql)         
 [SQL file on Data Assessment and Cleaning Process_contd](bike_customers_data_cleaning_contd.sql)
 
-Some data issues that were checked and corrected using SQL queries are as follows;
+Some data issues checks and corrections that were done using SQL queries includes ;
+
+
+- Check for Duplicate records;
+
+```SQL
+
+with duplicates as(
+	select
+		*,
+		row_number() over (partition by
+		"Order ID", "Date of Purchase",
+        "Customer Age", "Gender", 
+        "Marital Status", "Income", 
+        "Educational Level",
+		"Occupation", "Commute Distance", 
+        "Home Ownership", "Number of Cars", 
+        "Number of Children", "Purchased or Not"
+		order by serial_number) as "duplicates_index"
+	from
+		bike_customers_dataset 
+)
+select 
+	*
+from
+	duplicates
+where
+	duplicates_index > 1 ;
+```
+
+
+
+- Remove the Duplicate records;
+
+```SQL
+with duplicates as(
+	select
+		*,
+		row_number() over (partition by
+		"Order ID", "Date of Purchase",
+        "Customer Age", "Gender",
+        "Marital Status", "Income",
+        "Educational Level","Occupation",
+        "Commute Distance", "Home Ownership", 
+        "Number of Cars", "Number of Children", 
+        "Purchased or Not"
+		order by serial_number) as
+         "duplicates_index"
+	from
+		bike_customers_dataset 
+)
+delete from bike_customers_dataset
+where serial_number in (select serial_number
+from duplicates where "duplicates_index" > 1) ;
+
+```
+
+- Check for Inconsistent values/entries in a categorical variable/data-field;
+
+``` SQL
+select
+	distinct
+	"Educational Level" as Education,
+	initcap(trim("Educational Level")) as Modified
+from
+	customers_dataset ;
+
+
+select
+	distinct
+	"Commute Distance",
+	trim("Commute Distance")
+from
+	customers_dataset ;
+
+```
+
+- Update values of a categorical variable/data-field;
+
+``` SQL
+update customers_dataset 
+set "Occupation" = case
+		when "Occupation" = any(array['Nan', 'Unknown']) then 'Unknown'
+		when "Occupation" = 'Doc' then 'Doctor'
+		when "Occupation" = 'Engr' then 'Engineer'
+		when "Occupation" = 'Ret' then 'Retired'
+		when "Occupation" = 'Stud' then 'Student'
+		when "Occupation" = 'Teach' then 'Teacher'
+		when "Occupation" = 'Unemp' then 'Unemployed'
+		when "Occupation" = 'Other' then 'Others'
+		else "Occupation"
+	end ;
+
+```
+
+
+- Replace Outliers in a numeric column.
+
+``` SQL
+	with percentile_values as(
+	select
+		percentile_cont(0.01) within group (order by "Customer Age"::integer) as v1th_percentile,
+		percentile_cont(0.25) within group (order by "Customer Age"::integer) as v25th_percentile,
+		percentile_cont(0.50) within group (order by "Customer Age"::integer) as v50th_percentile,
+		percentile_cont(0.75) within group (order by "Customer Age"::integer) as v75th_percentile,
+		percentile_cont(0.99) within group (order by "Customer Age"::integer) as v99th_percentile
+	from
+		customers_dataset
+)
+update customers_dataset
+set "Customer Age" = case
+		when "Customer Age"::integer = any(array[999, 150]) then (select v99th_percentile from percentile_values)
+		else "Customer Age"::integer
+	end
+where
+	"Customer Age"::integer in (150, 999);
+
+```
+
+### Business Recommendation(s):
+- Automate the data cleaning process using SQL commands to speed up analysis and reporting.
+
