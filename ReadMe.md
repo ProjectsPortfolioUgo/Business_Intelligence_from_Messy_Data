@@ -200,6 +200,13 @@ from duplicates where "duplicates_index" > 1) ;
 
 ``` SQL
 select
+	distinct("Date of Purchase")
+from
+	customers_dataset
+where
+	regexp_like("Date of Purchase", '^[a-zA-Z ]+$');
+
+select
 	distinct
 	"Educational Level" as Education,
 	initcap(trim("Educational Level")) as Modified
@@ -230,6 +237,12 @@ set "Occupation" = case
 		when "Occupation" = 'Unemp' then 'Unemployed'
 		when "Occupation" = 'Other' then 'Others'
 		else "Occupation"
+	end ;
+
+update customers_dataset
+set "Date of Purchase" = case
+		when "Date of Purchase" = any(array['yesterday', 'invalid date']) then null
+		else "Date of Purchase"
 	end ;
 
 ```
