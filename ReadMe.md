@@ -272,5 +272,19 @@ where
 ```
 
 ### Business Recommendation(s):
-- Automate the data cleaning process using SQL commands to speed up analysis and reporting.
+- Automate the data cleaning process, using SQL commands and queries, to speed up analysis and reporting.
+
+
+### 4. **What possible Insights can be derived to aid Strategy Design?**
+
+**Income Class of Customers who patronized the business.**
+
+
+- Income data was categorized into Lower (<57375 CAD), Middle (57375- 114749 CAD), Upper Middle (114750-253414 CAD) and Upper (>= 253415 CAD) classes.
+
+- Various Income classes patronized the business. Though highest patronage came from customers in the Lower and Middle Income class.
+
+- Conversion Rates (CVR), Customer Traffic ( Visits) and Purchaser/Buyer numbers decreased from Lower- to Middle- to Upper-Middle to Upper income class.
+
+
 
