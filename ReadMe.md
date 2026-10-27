@@ -279,7 +279,7 @@ where
 
 **Income Class of Customers who patronized the business.**
 
-![How Does Patronage Vary with Income Class](images\Patronage_by_Income_Class.png)*What Income Classes do Patronizing Customers Belong to?*
+![How Does Patronage Vary with Income Class](images/Patronage_by_Income_Class.png)*What Income Classes do Patronizing Customers Belong to?*
 
 - Income data was categorized into Lower (<57375 CAD), Middle (57375- 114749 CAD), Upper Middle (114750-253414 CAD) and Upper (>= 253415 CAD) classes.
 
@@ -290,5 +290,5 @@ where
 
 
 **Income and Age Classes impact on Number of Purchasers.**
-![How Does Income and Age Classes impact Purchasers?](images\Number_of_Purchasers_by_Age_Income_Classes.png)
+![How Does Income and Age Classes impact Purchasers?](images/Number_of_Purchasers_by_Age_Income_Classes.png)
 
