@@ -280,8 +280,8 @@ where
 **Income Class of Customers who patronized the business.**
 
 ![How Does Patronage Vary with Income Class](images/Patronage_by_Income_Class.png)
-
-What Income Classes do Patronizing Customers Belong to?
+	
+	What Income Classes do Patronizing Customers Belong to?
 
 - Income data was categorized into Lower (<57375 CAD), Middle (57375- 114749 CAD), Upper Middle (114750-253414 CAD) and Upper (>= 253415 CAD) classes.
 
