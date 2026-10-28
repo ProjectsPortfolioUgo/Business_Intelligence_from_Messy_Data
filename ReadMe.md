@@ -295,7 +295,7 @@ where
 - Conversion Rates (CVR), Customer Traffic ( Visits) and Purchaser/Buyer numbers decreased from Lower- to Middle- to Upper-Middle to Upper income class.
 
 <br>
-<br>
+
 
 **Income and Age Classes impact on Number of Purchasers.**
 ![How Does Income and Age Classes impact Purchasers?](images/Number_of_Purchasers_by_Age_Income_Classes.png)
@@ -310,7 +310,7 @@ where
 - Upper-Middle income class patronized the business more than the Upper income class. However, both had way less impact than Lower- and Middle-income classes.
 
 <br>
-<br>
+
 
 **What influence does Customer Lifestyle have on the Number of Purchasers?**
 
