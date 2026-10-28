@@ -312,7 +312,7 @@ where
 <br>
 
 
-**What influence does Customer Lifestyle have on the Number of Purchasers?**
+**Customer Lifestyle influence on the Number of Purchasers.**
 
 The Number of Cars and Number of Children were assessed to determine their concurrent nfluence - if any - and their impact on the patronage.
 
