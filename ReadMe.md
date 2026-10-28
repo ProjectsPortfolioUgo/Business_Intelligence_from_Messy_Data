@@ -319,7 +319,7 @@ The Number of Cars and Number of Children were assessed to determine their conne
 - The Number of Cars dataset was categorized into No Cars, 1 Car, 2 Cars, 3 Cars, 4 Cars, and 5 or more cars. 
 Number of Children was categorized into No Child, 1 Child, 2 Children, 3 Children, 4 Children, and 5 or more children.
 
-- For each category of Cars, the patronage decreases as the number of children increases from No Child to 5 or more children. 
+- For each category of Cars, the patronage decreased as the number of children increased from No Child to 5 or more children. 
 
-- For each child category, the patronage decreases as the number of cars owned increases from 1 Car to 5 or more cars.
+- For each child category, the patronage decreased as the number of cars owned increased from 1 Car to 5 or more cars.
 
