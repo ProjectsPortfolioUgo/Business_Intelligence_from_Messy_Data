@@ -92,7 +92,8 @@ In more detail, SQL queries were used to:
 # Results and Business Recommendations
 Answers were proffered to the earlier raised questions and more.
 
-### 1. **What type of Customer Information was in the dataset?**
+### 1. **What type of Customer Information was in the dataset?**   
+<br>
 
 Analysis revealed the following;
 
@@ -113,6 +114,7 @@ Analysis revealed the following;
 
 
 ### 2. **What types of mess did the data have?**
+<br>
 
 [Python file on Exploratory Data Analysis on Messy Dataset](Exploratory_Data_Analysis_on_Dataset.ipynb)
 
@@ -134,6 +136,8 @@ Data Problems, identified from an Exploratory Data Analysis performed on the ori
 - Implement a staged cleaning process before utilizing data for analysis.
 
 ### 3. **Can SQL be used to check for and correct those messes?**
+<br>
+
 The application of keywords, functions, and Regular Expressions made checking for and correcting data quality issues (using SQL) possible.
 
 [SQL file on Data Assessment and Cleaning Process](bike_customers_data_cleaning.ql)         
@@ -277,6 +281,8 @@ where
 
 ### 4. **What possible Insights can be derived to aid Strategy Design?**
 
+<br>
+
 **Income Class of Customers who patronized the business.**
 
 ![How Does Patronage Vary with Income Class](images/Patronage_by_Income_Class.png)
@@ -288,7 +294,8 @@ where
 
 - Conversion Rates (CVR), Customer Traffic ( Visits) and Purchaser/Buyer numbers decreased from Lower- to Middle- to Upper-Middle to Upper income class.
 
-
+<br>
+<br>
 
 **Income and Age Classes impact on Number of Purchasers.**
 ![How Does Income and Age Classes impact Purchasers?](images/Number_of_Purchasers_by_Age_Income_Classes.png)
@@ -301,4 +308,18 @@ where
 - In the Lower- and Middle-income classes, customers aged 75 years and above (Senior) had the Most Number of Purchasers relative to other age classes.
 
 - Upper-Middle income class patronized the business more than the Upper income class. However, both had way less impact than Lower- and Middle-income classes.
+
+<br>
+<br>
+
+**What influence does Customer Lifestyle have on the Number of Purchasers.**
+
+The Number of Cars and Number of Children were assessed to determine their connection to each other - if any - and their impact on the patronage.
+
+- The Number of Cars dataset was categorized into No Cars, 1 Car, 2 Cars, 3 Cars, 4 Cars, and 5 or more cars. 
+Number of Children was categorized as No Child, 1 Child, 2 Children, 3 Children, 4 Children, and 5 or more children.
+
+- For each category of Cars, the patronage decreases as the number of children increases from No Child to 5 or more children. 
+
+- For each child category, the patronage decreases as the number of cars owned increases from 1 Car to 5 or more cars.
 
