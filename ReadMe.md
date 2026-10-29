@@ -331,3 +331,4 @@ Number of Children was categorized into No Child, 1 Child, 2 Children, 3 Childre
 
 - For each child category, the patronage decreased as the number of cars owned increased from 1 Car to 5 or more cars.
 
+
