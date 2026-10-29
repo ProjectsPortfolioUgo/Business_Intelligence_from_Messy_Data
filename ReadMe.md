@@ -314,6 +314,7 @@ where
 
 **Customer Lifestyle influence on the Number of Purchasers.**
 
+![Numbers_of_Cars_Children_on_Patronage](images\Customer_Lifestyle_on_Patronage.png)
 The Number of Cars and Number of Children were assessed to determine their concurrent nfluence - if any - and their impact on the patronage.
 
 - The Number of Cars dataset was categorized into No Cars, 1 Car, 2 Cars, 3 Cars, 4 Cars, and 5 or more cars. 
