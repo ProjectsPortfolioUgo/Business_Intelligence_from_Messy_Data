@@ -332,3 +332,11 @@ Number of Children was categorized into No Child, 1 Child, 2 Children, 3 Childre
 - For each child category, the patronage decreased as the number of cars owned increased from 1 Car to 5 or more cars.
 
 
+### Business Recommendations:
+- Maintain product prices as is, as the highest patronage came from customers in the Lower- and Middle-income classes, which meant that products were affordable, and many customers had the purchasing power to afford them. 
+
+- Focus Attention on customers in the Lower- and Middle-income classes and aged between 25 and 74 inclusive.
+
+- Prioritize clients who have 3 or fewer children, and those who have 3 or fewer cars.
+
+
