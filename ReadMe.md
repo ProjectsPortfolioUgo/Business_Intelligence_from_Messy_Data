@@ -348,7 +348,7 @@ This is based on an assessment of the commute distance information.
 ### Business Recommendation(s):
 - Maintain product prices as is, as the highest patronage came from customers in the Lower- and Middle-income classes, which meant that products were affordable, and many customers had the purchasing power to afford them. 
 
-- Focus Attention on customers in the Lower- and Middle-income classes and aged between 25 and 74 inclusive.
+- Focus Attention on customers in the Lower- and Middle-income classes and aged between 25 and 74 years inclusive.
 
 - Prioritize clients who have 3 or fewer children, and those who have 3 or fewer cars.
 
