@@ -331,6 +331,19 @@ Number of Children was categorized into No Child, 1 Child, 2 Children, 3 Childre
 
 - For each child category, the patronage decreased as the number of cars owned increased from 1 Car to 5 or more cars.
 
+<br>
+
+**What Ride type was most preferred by those that made a purchase?**
+
+
+This is based on an assessment of the commute distance information.
+
+- Commute Distance data was categorized to define the ride type of each customer. Commute Distance data was categorized into Easy/Short ride (<5 miles), Decent/Manageable ride (<10 miles), and Demanding/A-Bit-Much ride (>= 10 miles).
+
+- Easy/Short ride (<5 miles) was preferred by most of the purchasers.
+
+- An almost equal number of purchasers preferred Decent/Manageable and Demanding/A-Bit-Much rides.
+
 
 ### Business Recommendation(s):
 - Maintain product prices as is, as the highest patronage came from customers in the Lower- and Middle-income classes, which meant that products were affordable, and many customers had the purchasing power to afford them. 
@@ -339,4 +352,27 @@ Number of Children was categorized into No Child, 1 Child, 2 Children, 3 Childre
 
 - Prioritize clients who have 3 or fewer children, and those who have 3 or fewer cars.
 
+- Consider as important the customers who ride their bikes for at most 5 miles (<= 5miles).
 
+
+<br>
+
+# Conclusion
+
+- Improved Business Intelligence through assessment of business performance from analysis of the customer demographic dataset.
+
+- The cleaning process improved the overall quality and reliability of the dataset.
+
+- Duplicate records, inconsistent text formats, invalid values, and missing data were among the data quality issues identified and addressed using SQL queries and syntax.
+
+- Product pricing is reasonable and within the purchasing power of MOST Customers, as the majority of visits, purchases, and conversion rates came from Lower- and Middle- income earners.
+
+- The likelihood of a visitor making a purchase decreases as the number of children increases from 0 and as the number of cars owned increases from 1.
+
+<br>
+
+# Next Steps
+
+- Prepare an analysis dashboard to evaluate the business’s performance across various customer demographic, lifestyle, and behavior information.
+
+- Include Location data so as to evaluate the customer behavior at various business locations.
