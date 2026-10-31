@@ -361,6 +361,7 @@ This is based on an assessment of the commute distance information.
 
 - Improved Business Intelligence through assessment of business performance from analysis of the customer demographic dataset.
 
+- Marketing Strategy can be developed or modified, and Product Pricing decisions can be made, based on Customer Demography, Lifestyle, and Behavior Information
 - The cleaning process improved the overall quality and reliability of the dataset.
 
 - Duplicate records, inconsistent text formats, invalid values, and missing data were among the data quality issues identified and addressed using SQL queries and syntax.
