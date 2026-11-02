@@ -340,7 +340,9 @@ This is based on an assessment of the commute distance information.
 
 - Commute Distance data was categorized to define the ride type of each customer. Commute Distance data was categorized into Easy/Short ride (<5 miles), Decent/Manageable ride (<10 miles), and Demanding/A-Bit-Much ride (>= 10 miles).
 
-- Easy/Short ride (<5 miles) was preferred by most of the purchasers.
+- Easy/Short ride (<=5 miles) was preferred by most of the purchasers.
+
+- 1 in 3 customers that made a purchase preferred the Easy/Short ride, which is a commute distance of 5 miles or less.
 
 - An almost equal number of purchasers preferred Decent/Manageable and Demanding/A-Bit-Much rides.
 
