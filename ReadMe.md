@@ -335,6 +335,11 @@ Number of Children was categorized into No Child, 1 Child, 2 Children, 3 Childre
 
 **What Ride type was most preferred by those that made a purchase?**
 
+![](images/How_does_Patronage_Vary_with_RideType.png)
+
+<br>
+
+![](images/Portion_of_RideType_in_Purchasers.png)
 
 This is based on an assessment of the commute distance information.
 
