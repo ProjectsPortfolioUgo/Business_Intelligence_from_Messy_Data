@@ -140,8 +140,8 @@ Data Problems, identified from an Exploratory Data Analysis performed on the ori
 
 The application of keywords, functions, and Regular Expressions made checking for and correcting data quality issues (using SQL) possible.
 
-[SQL file on Data Assessment and Cleaning Process](bike_customers_data_cleaning.ql)         
-[SQL file on Data Assessment and Cleaning Process_contd](bike_customers_data_cleaning_contd.sql)
+[SQL file on Data Assessment and Cleaning Process](Cleaning_Messy_Customer_Dataset.sql)         
+
 
 Some data issues checks and corrections that were done using SQL queries includes ;
 
