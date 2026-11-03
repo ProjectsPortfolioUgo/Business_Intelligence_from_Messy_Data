@@ -343,7 +343,7 @@ Number of Children was categorized into No Child, 1 Child, 2 Children, 3 Childre
 
 This is based on an assessment of the commute distance information.
 
-- Commute Distance data was categorized to define the ride type of each customer. Commute Distance data was categorized into Easy/Short ride (<5 miles), Decent/Manageable ride (<10 miles), and Demanding/A-Bit-Much ride (>= 10 miles).
+- Commute Distance data was categorized to define the ride type of each customer. Commute Distance data was categorized into Easy/Short (<5 miles), Decent (<10 miles), and Demanding (>= 10 miles).
 
 - Easy/Short ride (<=5 miles) was preferred by most of the purchasers.
 
