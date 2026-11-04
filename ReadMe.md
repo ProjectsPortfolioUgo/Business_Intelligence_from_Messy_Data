@@ -310,11 +310,11 @@ where
 
 - Answers the question, “What combination of Age and Income classes had the most impact on the business?”
 
-- FOR ALL AGE RANGES, Lower- and Middle-income classes had the most impact on the business, with the Lower class having the highest impact amongst them.
+- FOR ALL AGE RANGES, Lower- and Middle-Income classes had the most impact on the business, with the Lower class having the highest impact amongst them.
 
-- **In the Lower- and Middle-income classes, customers aged 75 years and above (Senior) had the Highest Number of Purchasers relative to other age classes.**
+- **In the Lower- and Middle-Income classes, customers aged 75 years and above (Senior) had the Highest Number of Purchasers relative to other age classes.**
 
-- The Upper-Middle income class patronized the business more than the Upper income class. However, both had way less impact than Lower- and Middle-income classes.
+- The Upper-Middle income class patronized the business more than the Upper income class. However, both had way less impact than Lower- and Middle-Income classes.
 
 <br>
 
