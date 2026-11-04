@@ -6,16 +6,16 @@ Messy business data, stored in a relational database, was cleaned using SQL.
 
 To evaluate, update, or completely overhaul its market strategy, a company needed a thorough understanding of its customer base. Gaining this insight relied entirely on access to a clean, error-free dataset. 
 
-Trustworthy and reliable data was derived after identifying and correcting errors such as Duplicate records, missing values, inconsistent values, outliers, and unwanted data amongst others.
+Trustworthy and reliable data was derived after identifying and correcting errors such as Duplicate records, missing values, inconsistent values, outliers, and unwanted data, among others.
 
 SQL was used as the tool for data cleaning and transformation. It was applied through the Postgres RDBMS.
 
-**Lower- and Middle-Income class customers had the highest customer traffic and made the most purchases.**  
-**Young Adults to Young Seniors had a cumulatively high impact on the business.**  
+**Lower- and Middle-income class customers had the highest customer traffic and made the most purchases.**  
+**Young Adults to Young Seniors, between 25 and 74 years inclusive, had a high impact on the business.**  
 **Conversion Rate was a key performance metric that should be determined.**  
-**The business data-gathering process needed to be either reviewed or redesigned, and the data cleaning operation be automated.**      
+**The business data-gathering process needed to be either reviewed or redesigned, and the data cleaning operation should be automated.**      
 
-Business Intelligence improved as a result, as subsequent analysis was based on reliable, clean information that accurately described the business operations. 
+Business Intelligence improved as a result, as subsequent analysis was based on reliable, clean information that accurately described the business operations vis-a-vis the customer infomation. 
 
 
 
@@ -31,14 +31,14 @@ Marketing Teams need reliable Buyer Profiles to develop new or update existing M
 
 - Can dependable, trustworthy insights be derived from cleaned data using SQL? 
 
-These few questions (and more) were answered in this project.
+These few questions (and more) are answered in this project.
 
 **Answers to the business questions helped produce a reliable foundation for analyses, and a strong context for data-driven decisions**. 
 
 
 
 # Methodology:
-Basically involved using SQL queries for:
+This involved using SQL queries for:
 
 - Creation of Database and Tables, 
 - Data Exploration, and 
