@@ -33,7 +33,7 @@ Marketing Teams need reliable Buyer Profiles to develop new or update existing M
 
 These few questions (and more) are answered in this project.
 
-**Answers to the business questions helped produce a reliable foundation for analyses, and a strong context for data-driven decisions**. 
+**Answers to the business questions helped establish a reliable foundation for analyses and a strong context for data-driven decisions**. 
 
 
 
