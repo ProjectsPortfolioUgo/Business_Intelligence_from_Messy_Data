@@ -50,12 +50,19 @@ In more detail, SQL queries were used to:
 - Create a Database and Table to hold the raw data.
 
 - Inspect the dataset and identify data quality issues.
+
 - Check for duplicate records (using the PARTITION BY clause and a BIGSERIAL data type column). 
+
 - Standardize inconsistent text values using SQL functions.
+
 - Identify and handle missing or null values.
+
 - Apply the PERCENTILE_CONT() function in Outlier handling.
+
 - Convert date and numerical columns into appropriate data types.
+
 - Remove unnecessary spaces and inconsistent characters.
+
 - Create a cleaned dataset for further analysis and reporting.
 
 
