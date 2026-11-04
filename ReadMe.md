@@ -11,7 +11,7 @@ Trustworthy and reliable data was derived after identifying and correcting error
 SQL was used as the tool for data cleaning and transformation. It was applied through the Postgres RDBMS.
 
 **Lower- and Middle-income class customers had the highest customer traffic and made the most purchases.**  
-**Young Adults to Young Seniors, between 25 and 74 years inclusive, had a high impact on the business.**  
+**Young Adults to Young Seniors, between 25 and 74 years inclusive, taken together, had a high impact on the business.**  
 **Conversion Rate was a key performance metric that should be determined.**  
 **The business data-gathering process needed to be either reviewed or redesigned, and the data cleaning operation should be automated.**      
 
@@ -92,7 +92,7 @@ In more detail, SQL queries were used to:
 
 - Execute the SQL queries to implement transformations.
 
-- Execute SQL queries to analysis the cleaned dataset for insights and information.
+- Execute SQL queries to analyze the cleaned dataset for insights and information.
 
 
 
@@ -125,7 +125,7 @@ Analysis revealed the following;
 
 [Python file on Exploratory Data Analysis on Messy Dataset](Exploratory_Data_Analysis_on_Dataset.ipynb)
 
-Data Problems, identified from an Exploratory Data Analysis performed on the original/raw dataset, included;
+Data Problems, identified from an Exploratory Data Analysis performed on the original/raw dataset, included:
 
 - Duplicate Records.
 
@@ -150,7 +150,7 @@ The application of keywords, functions, and Regular Expressions made checking fo
 [SQL file on Data Assessment and Cleaning Process](Cleaning_Messy_Customer_Dataset.sql)         
 
 
-Some data issues checks and corrections that were done using SQL queries includes ;
+Some data issues checks and corrections that were done using SQL queries include:
 
 
 - Check for Duplicate records;
@@ -295,26 +295,26 @@ where
 ![How Does Patronage Vary with Income Class](images/Patronage_by_Income_Class.png)
      
 
-- Income data was categorized into Lower (<57375 CAD), Middle (57375- 114749 CAD), Upper Middle (114750-253414 CAD) and Upper (>= 253415 CAD) classes.
+- Income data was categorized into Lower (<57375 CAD), Middle (57375- 114749 CAD), Upper Middle (114750-253414 CAD), and Upper (>= 253415 CAD) classes.
 
-- Various Income classes patronized the business. Though highest patronage came from customers in the Lower and Middle Income class.
+- Various Income classes patronized the business. The highest patronage came from customers in the Lower- and Middle- Income class.
 
-- Conversion Rates (CVR), Customer Traffic ( Visits) and Purchaser/Buyer numbers decreased from Lower- to Middle- to Upper-Middle to Upper income class.
+- Conversion Rates (CVR), Customer Traffic (Visits) and Purchaser/Buyer numbers decreased from Lower- to Middle- to Upper-Middle to Upper income class.
 
 <br>
 
 
 **Income and Age Classes impact on Number of Purchasers.**
-![How Does Income and Age Classes impact Purchasers?](images/Number_of_Purchasers_by_Age_Income_Classes.png)
+![How Do Income and Age Classes impact Purchasers?](images/Number_of_Purchasers_by_Age_Income_Classes.png)
 
 
 - Answers the question, “What combination of Age and Income classes had the most impact on the business?”
 
-- FOR ALL AGE RANGES, Lower- and Middle-income classes had the most impact on the business, with Lower class having the highest impact amongst them.
+- FOR ALL AGE RANGES, Lower- and Middle-income classes had the most impact on the business, with the Lower class having the highest impact amongst them.
 
-- In the Lower- and Middle-income classes, customers aged 75 years and above (Senior) had the Most Number of Purchasers relative to other age classes.
+- **In the Lower- and Middle-income classes, customers aged 75 years and above (Senior) had the Highest Number of Purchasers relative to other age classes.**
 
-- Upper-Middle income class patronized the business more than the Upper income class. However, both had way less impact than Lower- and Middle-income classes.
+- The Upper-Middle income class patronized the business more than the Upper income class. However, both had way less impact than Lower- and Middle-income classes.
 
 <br>
 
