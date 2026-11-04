@@ -329,10 +329,10 @@ where
 
 <br>
 
-The Number of Cars and Number of Children were assessed to determine their concurrent nfluence - if any - and their impact on the patronage.
+The Number of Cars and Number of Children were assessed to determine their concurrent influence, if any, and their impact on the patronage.
 
 - The Number of Cars dataset was categorized into No Cars, 1 Car, 2 Cars, 3 Cars, 4 Cars, and 5 or more cars. 
-Number of Children was categorized into No Child, 1 Child, 2 Children, 3 Children, 4 Children, and 5 or more children.
+Number of Children was categorized into No Kids, 1 Kid, 2 Kids, 3 Kids, 4 Kids, and 5+ kids.
 
 - For each category of Cars, the patronage decreased as the number of children increased from No Child to 5 or more children. 
 
