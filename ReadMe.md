@@ -388,6 +388,6 @@ This is based on an assessment of the commute distance information.
 
 # Next Steps
 
-- Prepare an analysis dashboard to evaluate the business’s performance across various customer demographic, lifestyle, and behavior information.
+- Create an analysis dashboard to evaluate the business’s performance across various customer demographic, lifestyle, and behavior information.
 
 - Include Location data so as to evaluate the customer behavior at various business locations.
