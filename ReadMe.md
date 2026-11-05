@@ -350,11 +350,11 @@ Number of Children was categorized into No Kids, 1 Kid, 2 Kids, 3 Kids, 4 Kids, 
 
 This is based on an assessment of the commute distance information.
 
-- Commute Distance data was categorized to define the ride type of each customer. Commute Distance data was categorized into Easy/Short (<5 miles), Decent (<10 miles), and Demanding (>= 10 miles).
+- Commute Distance data was categorized to define the ride type of each customer. Commute Distance was categorized as: Easy/Short (<5 miles), Decent (<10 miles), and Demanding (>= 10 miles).
 
 - Easy/Short ride (<=5 miles) was preferred by most of the purchasers.
 
-- 3 in 10 customers that made a purchase preferred the Easy/Short ride, which is a commute distance of 5 miles or less.
+- 3 in 10 customers who made a purchase preferred the Easy/Short ride, which is a commute distance of 5 miles or less.
 
 - An almost equal number of purchasers preferred Decent/Manageable and Demanding/A-Bit-Much rides.
 
@@ -388,6 +388,6 @@ This is based on an assessment of the commute distance information.
 
 # Next Steps
 
-- Create an analysis dashboard to evaluate the business’s performance across various customer demographic, lifestyle, and behavior information.
+- Create an analysis dashboard to evaluate the business’s performance across various customer demographics, lifestyles, and behavior information.
 
-- Include Location data so as to evaluate the customer behavior at various business locations.
+- Include Location data to evaluate the customer behavior at various business locations.
