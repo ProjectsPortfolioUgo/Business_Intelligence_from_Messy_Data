@@ -13,6 +13,7 @@ SQL was used as the tool for data cleaning and transformation. It was applied th
 **Lower- and Middle-income class customers had the highest customer traffic and made the most purchases.**  
 **In the Lower- and Middle-income classes,  the Youth, Young Adult, Upper-Mid Adult and Senior age groups, should be given priority.**  
 **One (1) in three (3) customers is a leisure rider, as they completed Easy / Short bike rides of at most 5 miles.**  
+**Customers with at most 2 children or 2 cars have the highest likelihood of making a purchase.**  
 **Conversion Rate was a key performance metric that should be determined.**  
 **The business data-gathering process needed to be either reviewed or redesigned, and the data cleaning operation should be automated.**      
 
