@@ -11,7 +11,8 @@ Trustworthy and reliable data was derived after identifying and correcting error
 SQL was used as the tool for data cleaning and transformation. It was applied through the Postgres RDBMS.
 
 **Lower- and Middle-income class customers had the highest customer traffic and made the most purchases.**  
-**Young Adults to Young Seniors, between 25 and 74 years inclusive, taken together, had a high impact on the business.**  
+**In the Lower- and Middle-income classes,  the Youth, Young Adult, Upper-Mid Adult and Senior age groups, should be given priority.**  
+**One (1) in three (3) customers is a leisure rider, as they completed Easy / Short bike rides of at most 5 miles.**  
 **Conversion Rate was a key performance metric that should be determined.**  
 **The business data-gathering process needed to be either reviewed or redesigned, and the data cleaning operation should be automated.**      
 
